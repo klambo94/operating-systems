@@ -3,6 +3,10 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+/*
+ *Used reference from cpluscplus for atoi.
+ *http://www.cplusplus.com/reference/cstdlib/atoi/
+ */
 int main(int argc, char *argv[]) {
 	int n;
 	if(argc == 2) {
